@@ -32,6 +32,8 @@ public class BoardController {
 	BoardService boardService;
 	@Autowired
 	FileItemService fileItemService;
+//보드리스트 출력 주석추가
+	
 
 	@RequestMapping("/boardList")
 	public String boardList(@RequestParam(value = "searchType", required = false, defaultValue = "") String searchType,
